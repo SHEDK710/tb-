@@ -1,0 +1,470 @@
+   body {
+       color: #3C3C3C;
+       -webkit-font-smoothing: antialiased;
+       background-color: #f4f4f4;
+   }
+   
+   * {
+       margin: 0;
+       padding: 0;
+   }
+   
+   #header {
+       float: top;
+       width: 100%;
+       height: 40px;
+       background-color: #EEEEEE;
+       font-size: small;
+   }
+   
+   #header .select {
+       margin: 0px 0px 10px 350px;
+       height: 40px;
+       -moz-appearance: none;
+       -webkit-appearance: none;
+       padding-right: 14px;
+       background: url(../image/jiantou1.png) no-repeat scroll right transparent;
+       border: none;
+       position: relative;
+       color: black;
+       border-style: solid;
+       border-width: 100;
+       border-color: transparent;
+   }
+   
+   #header .select:hover {
+       background-color: white;
+   }
+   
+   #header a {
+       margin: 0px 1px 5px 10px;
+       font-size: small;
+       text-decoration: none;
+       color: gray;
+   }
+   
+   #header a:hover {
+       color: #FF0000;
+   }
+   
+   #header #login {
+       color: #FF0000;
+   }
+   
+   #nav1 {
+       float: top;
+       width: 100%;
+       height: 70px;
+       background-color: #FF0000;
+       text-align: center;
+   }
+   
+   #search {
+       background-color: white;
+       width: 100%;
+       height: 120px;
+   }
+   
+   #nav2 {
+       float: left;
+       height: 120px;
+   }
+   
+   #nav2 a {
+       float: left;
+       margin: 0;
+       height: 120px;
+   }
+   
+   #search img {
+       width: 150px;
+       height: 90px;
+       margin: 20px 20px 20px 370px;
+   }
+   
+   #nav3 {
+       float: left;
+       height: 50px;
+       width: 1000px;
+   }
+   
+   .nav3 {
+       list-style: none;
+   }
+   
+   .nav3_s {
+       float: left;
+       margin: 22px 10px 0 10px;
+       color: #FF6600;
+       font-size: small;
+   }
+   
+   .nav3_s a {
+       text-decoration: none;
+       color: #ff6600;
+       font-weight: bolder;
+       position: relative;
+       top: 3px;
+   }
+   
+   .nav3 #selected {
+       background-color: #ff6600;
+       width: 60px;
+       height: 30px;
+       text-align: center;
+       border-radius: 7px 7px 0px 0px;
+   }
+   
+   .nav3 #selected a {
+       color: white;
+   }
+   
+   #nav4 {
+       float: left;
+       height: 70px;
+       width: 1000px;
+   }
+   
+   #nav4 .nav4_st {
+       border-style: solid;
+       border-width: 3px;
+       border-color: #FF6600;
+       width: 700px;
+       height: 35px;
+       padding: 0px 15px;
+       border-top-left-radius: 15px;
+       border-bottom-left-radius: 15px;
+   }
+   
+   #nav4 .nav4_ss {
+       border-style: solid;
+       border-width: 3px;
+       border-color: #FF6600;
+       background-color: #FF6600;
+       color: white;
+       font-family: sans-serif;
+       font-weight: bolder;
+       width: 50px;
+       height: 41px;
+       border-top-right-radius: 15px;
+       border-bottom-right-radius: 15px;
+       position: relative;
+       top: 1px;
+   }
+   
+   #nav-j .nav-j1 {
+       font-size: 12px;
+       width: 1190px;
+       height: 30px;
+       margin: 0 auto;
+       background-color: #FF6600;
+   }
+   
+   #nav-j .nav-j1 h2 {
+       height: 30px;
+       width: 191px;
+       margin: auto 0;
+       text-align: center;
+       background-color: #FF0000;
+       color: white;
+   }
+   
+   #nav-j .nav-j2 {
+       float: left;
+       list-style: none;
+       font-size: 16px;
+       color: white;
+       height: 30px;
+       margin: 0;
+       padding: 0;
+       position: relative;
+       top: -30px;
+       left: 190px;
+   }
+   
+   #nav-j .nav-j2 li {
+       float: left;
+       height: 30px;
+       margin: 0 3px;
+       padding: 3px 4px;
+       text-align: center;
+   }
+   
+   #arc {
+       width: 1190px;
+       margin: 0px auto;
+       height: 522px;
+       position: relative;
+       top: -20px;
+   }
+   
+   #arc .main {
+       float: left;
+       margin: 0;
+       padding: 0;
+       width: 900px;
+       height: 522px;
+   }
+   
+   #arc .main .nav .inner {
+       list-style: none;
+       float: left;
+       background-color: white;
+       width: 190px;
+       height: 522px;
+       margin: 0;
+       font-weight: 400;
+       font-size: 15px;
+       padding: 1px 0;
+       position: relative;
+       top: -10px;
+       border-style: solid;
+       border-color: #FF0000;
+       border-width: 0px 1px 1px 1px;
+   }
+   
+   #arc .main .nav .inner_blank {
+       display: none;
+       position: relative;
+       top: -35px;
+       left: 164px;
+       background-color: white;
+       height: 522px;
+       width: 700px;
+       z-index: 1;
+       border-style: solid;
+       border-color: #FF6600;
+       border-width: 2px;
+   }
+   
+   #arc .main .nav .inner li:hover {
+       background-color: #ff6e6c;
+       height: 32px;
+   }
+   
+   #arc .main .nav .inner li:hover .inner_blank {
+       display: block;
+   }
+   
+   #arc .main .nav .inner li {
+       padding-left: 25px;
+       padding-right: 19px;
+       padding-top: 1px;
+       padding-bottom: 1px;
+       line-height: 32px;
+       position: relative;
+       font-size: 14px;
+       font-weight: 400;
+       width: 145px;
+       color: #666;
+   }
+   
+   #arc .main .nav-img {
+       width: 680px;
+       height: 500px;
+       display: inline;
+       position: relative;
+       overflow: hidden;
+       float: left;
+       left: 10px;
+   }
+   
+   #arc .main #linklist {
+       z-index: 1;
+       height: 500px;
+       width: 680px;
+       position: relative;
+       left: 200px;
+   }
+   
+   #arc .main #linklist a img {
+       height: 50px;
+       width: 50px;
+   }
+   
+   #arc .main #linklist .zuo {
+       position: absolute;
+       top: 225px;
+       left: 1px;
+   }
+   
+   #arc .main #linklist .you {
+       position: absolute;
+       top: 225px;
+       left: 640px;
+   }
+   
+   #arc .user {
+       float: right;
+       width: 290px;
+       height: 100%;
+   }
+   
+   #arc .user .user-member {
+       background-image: url(../image/user.png);
+       background-size: 290px 157px;
+       background-repeat: no-repeat;
+       float: left;
+   }
+   
+   #arc .user .user-member .member-bd {
+       margin: 0;
+       padding: 0;
+       width: 290px;
+       height: 137px;
+   }
+   
+   #arc .user .user-member .member-bd ul {
+       list-style: none;
+       margin: 15px 0px;
+       padding: 0;
+   }
+   
+   #arc .user .user-member .member-bd ul li {
+       text-align: center;
+       margin: 20px 0;
+   }
+   
+   #arc .user .user-member .member-bd ul li button {
+       border-style: none;
+       border-radius: 3px;
+       width: 92px;
+       height: 25px;
+       border-color: #FF800A;
+       background-color: #FF800A;
+   }
+   
+   #arc .user .user-member .member-bd ul li button a {
+       color: white;
+       font-weight: 500;
+       text-decoration: none;
+   }
+   
+   #arc .user .user-img {
+       height: 69.5px;
+       width: 290px;
+       float: left;
+   }
+   
+   #arc .user .user-img img {
+       height: 69.5px;
+       width: 290px;
+   }
+   
+   #arc .user .end {
+       float: left;
+       width: 290px;
+       height: 295.5px;
+   }
+   
+   #arc .user .end img {
+       width: 290px;
+       height: 282px;
+       position: relative;
+       top: -50px;
+       left: 0;
+   }
+   
+   .end {
+       margin: 50px 0 0 0;
+   }
+   
+   .clear {
+       height: 180px;
+       width: 350px;
+       float: left;
+   }
+   
+   .end .helper {
+       margin: 30px 0px;
+       height: 180px;
+       width: 1180px;
+       float: left;
+   }
+   
+   .end .help_1 {
+       float: left;
+       padding: 0px 20px;
+       height: 180px;
+       width: 250px;
+   }
+   
+   .end img {
+       color: gray;
+       float: left;
+       width: 80px;
+       height: 78px;
+   }
+   
+   .end span {
+       float: left;
+       margin-left: 12px;
+       padding-top: 12px;
+       font-size: 16px;
+   }
+   
+   .end ul {
+       float: left;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       width: 250px;
+       height: 42px;
+   }
+   
+   .end ul li {
+       display: inline-block;
+       margin-right: 10px;
+       font-weight: 100;
+       font-size: small;
+       width: auto;
+       height: 15px;
+       color: gray;
+   }
+   
+   .end .help_2 {
+       padding: 0px 20px;
+       height: 180px;
+       width: 250px;
+       float: left;
+   }
+   
+   .end .help_3 {
+       padding: 0px 20px;
+       height: 180px;
+       width: 250px;
+       float: left;
+   }
+   
+   .end .help_4 {
+       padding: 0px 20px;
+       height: 180px;
+       width: 250px;
+       float: left;
+   }
+   
+   .footer {
+       height: 300px;
+       width: 1903px;
+       position: absolute;
+       top: 1000px;
+       background-color: white;
+   }
+   
+   .footer .footer-hd {
+       width: 1190px;
+       float: left;
+       height: 300px;
+   }
+   
+   .footer hr {
+       border-style: solid;
+       border: 1 gray;
+       margin: 0px auto;
+   }
+   
+   .footer p {
+       text-align: center;
+       font-weight: 300;
+       letter-spacing: 5px;
+   }
